@@ -1,13 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Zyflow Automation Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#4675d5",
+    "light": "#4675d5",
+    "dark": "#b7d7f9"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
@@ -84,14 +83,14 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/Zyflow-1-Edited.png",
+    "dark": "/images/Zyflow-1-Edited.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:ankit@zyflow.dev"
       }
     ],
     "primary": {
@@ -114,9 +113,41 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/zyflow"
     }
+  },
+  "description": "Zyflow Automation Documentation and API guide",
+  "favicon": "/images/Zyflow(6).png",
+  "appearance": {
+    "default": "light"
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "banner": {
+    "content": "Please contact Support",
+    "dismissible": true
+  },
+  "thumbnails": {
+    "appearance": "light"
+  },
+  "search": {
+    "prompt": "Type to ask your question..."
+  },
+  "api": {
+    "playground": {
+      "display": "interactive"
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Nothing here "
+    }
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "seo": {
+    "indexing": "navigable"
   }
 }
